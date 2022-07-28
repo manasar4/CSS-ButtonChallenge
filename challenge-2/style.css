@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+.div__btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.btn{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:#fff;
+    border-style: solid;
+    border-color:#FFFF00;
+    border-radius: 8px;
+    padding:10px;
+    /* box-shadow: 0px 0px 2px 0px #ffff00 ; */
+    filter:drop-shadow(0.2em .2em .5em #ffff00);
+    background-color: black;
+}

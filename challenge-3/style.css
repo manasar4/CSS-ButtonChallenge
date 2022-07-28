@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #CFDFDF;
+    /*background-color:hsl(0, 0%, 90%)*/
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    border: none;
+}
+
+.btn,
+.btn-text-one {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #0D3067;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn-text-two {
+    display: none;
+}
